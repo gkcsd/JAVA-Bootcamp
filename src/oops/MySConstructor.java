@@ -8,7 +8,7 @@ class Vehicle {
 
     //it is called default constructor or non-parameterized constructor
     Vehicle() {
-        System.out.println("I am default constructor");
+        System.out.println("This is default constructor");
     }
 
     //parameterized constructor..
