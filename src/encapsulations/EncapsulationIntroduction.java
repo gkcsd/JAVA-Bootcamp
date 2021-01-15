@@ -6,9 +6,5 @@ public class EncapsulationIntroduction {
         Student obj = new Student();
 
         obj.setAge(22);
-        System.out.println(obj.getAge());
-
-        obj.setName("Rajesh");
-        System.out.println(obj.getName());
     }
 }
