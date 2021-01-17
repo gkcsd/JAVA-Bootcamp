@@ -21,5 +21,16 @@ public class MainClass {
         s.eat();
 
         s.walk();
+
+        //upcasting:
+        //          teacher is a person
+//        Teacher t = new Teacher();
+//        Person p = t;
+
+
+        //downcasting:
+        //          Person may be teacher but it will show the runtime error
+//        Person p = new Person();
+//        Teacher t = (Teacher) p;
     }
 }
