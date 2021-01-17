@@ -3,6 +3,12 @@ package oops.inheritance;
 public class Person {
     protected String name;
 
+    //Constructor
+    public Person(String name) {
+        this.name = name;
+        System.out.println("Inside the person constructor");
+    }
+
     public void walk() {
         System.out.println("Person " + name +" is walking");
     }
