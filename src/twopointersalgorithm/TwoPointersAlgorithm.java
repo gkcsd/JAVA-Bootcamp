@@ -1,5 +1,6 @@
 package twopointersalgorithm;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class TwoPointersAlgorithm {
@@ -23,7 +24,22 @@ public class TwoPointersAlgorithm {
 }
 
 class Triplet{
-    public boolean findTriplets() {
+    public boolean findTriplets(int arr[], int n) {
 
+    }
+
+    public boolean twoSum(int a[], int x) {
+        int i = 0, j = a.length - 1;
+
+        while (i < j) {
+            if (a[i] + a[j] > x) {
+                j--;
+            } else if(a[i] + a[j] < x) {
+                i++;
+            } else {
+                return true;
+            }
+        }
+        return false;
     }
 }
