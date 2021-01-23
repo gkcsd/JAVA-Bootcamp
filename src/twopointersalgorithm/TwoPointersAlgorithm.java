@@ -25,7 +25,7 @@ public class TwoPointersAlgorithm {
 
 class Triplet{
     public boolean findTriplets(int arr[], int n) {
-
+        arr.sort();
     }
 
     public boolean twoSum(int a[], int x) {
