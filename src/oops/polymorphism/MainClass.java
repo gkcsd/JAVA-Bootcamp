@@ -10,7 +10,11 @@ public class MainClass {
         d.walk();
         p.walk(); // it is runtime polymorphism..
 
+        System.out.println(d.name + " " + p.name);
+
+        //compiler time polymorphism..
         greeting("Good Morning", 5);
+
     }
 
     //It is called compiler time polymorphism..
