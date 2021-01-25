@@ -5,7 +5,7 @@ public abstract class Car {
 
     public abstract void breaking();
 
-    //Concrete method..
+    //Concrete method...
     public void Honk() {
         System.out.println("car is Honking");
     }
