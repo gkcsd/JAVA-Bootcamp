@@ -1,8 +1,8 @@
 package oops.finalkeyword;
 
-public class Student {
-    final String name;
-    final int rollNo;
+public final class Student {
+    String name;
+    int rollNo;
 
 //    //You can initialize the final variable in empty block
 //    {
@@ -19,4 +19,8 @@ public class Student {
 //    public Student() {
 //        name = "Ganesh";
 //    }
+
+    public final void getDescription() {
+        System.out.println("Inside the Student class " + name);
+    }
 }
