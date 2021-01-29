@@ -14,7 +14,9 @@ public class MainClass {
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Index should be in range of 0 to size of array");
         } catch (IllegalArgumentException e) {
-            System.out.println(e + " please check the code");
+            System.out.println(e + " please check your casting carefully");
+        } finally {
+            System.out.println("Sorry for the inconvenience");
         }
 
         System.out.println("This is the outer code");
