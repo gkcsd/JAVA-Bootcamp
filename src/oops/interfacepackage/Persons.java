@@ -7,6 +7,7 @@ public class Persons implements Student, Youtuber {
         obj.study();
         obj.makeVideo();
         obj.videoEditor();
+        obj.uploadVideo();
     }
 
     @Override
@@ -22,5 +23,9 @@ public class Persons implements Student, Youtuber {
     @Override
     public void videoEditor() {
         System.out.println("Person uses the final cut pro for youtube video editing");
+    }
+    @Override
+    public void uploadVideo() {
+        System.out.println("Person is uploading the videos");
     }
 }
