@@ -6,7 +6,7 @@ public class ExceptionThrowThrows {
     public static void main(String[] args) {
         try {
             methodA();
-            System.out.println("MethodA run");
+            System.out.println("MethodA() run");
         }catch (ArithmeticException err) {
             System.out.println("Arithmetic exception caught");
 
