@@ -13,9 +13,11 @@ public class ArrayUserInput {
 
         int items[] = new int[itemNum];
 
-        for (int i = 0; i < items.length; ++i) {
+        if (itemNum > 0) {
             System.out.println("Enter The Array Elements: ");
-            items[i] = in.nextInt();
+            for (int i = 0; i < items.length; ++i) {
+                items[i] = in.nextInt();
+            }
         }
 
         System.out.print("The Values are: [");
