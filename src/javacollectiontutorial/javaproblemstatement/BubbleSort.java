@@ -34,7 +34,7 @@ public class BubbleSort {
     public static void main(String[] args) {
         BubbleSortClass obj = new BubbleSortClass();
 
-        int arr[] = {2,5,4,7,9,6,3,45,6};
+        int arr[] = {100,5,4,7,9,6,3,45,6};
 
 
         System.out.println("Before Sorted Array Is: ");
