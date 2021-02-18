@@ -17,7 +17,7 @@ class Testy extends Thread {
 public class ImplementingThreadClass {
     public static void main(String[] args) {
         Testy t = new Testy();
-        t.start();
+        //t.start();
         for (int i = 0; i< 5; i++) {
             System.out.println("Inside Main Class");
             //Thread.sleep(1);
