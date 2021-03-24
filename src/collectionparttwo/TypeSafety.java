@@ -11,6 +11,7 @@ package collectionparttwo;
 //        p.x = 10;
 //        p.y = "Ganesh";
 //        String s = (String)p.x;
+//        it compile fine but it shows the runtime error
 //    }
 //}
 
@@ -26,7 +27,9 @@ public class TypeSafety {
         PairTwo<Integer,String> p = new PairTwo<Integer,String>();
         p.x = 10;
         p.y = "Ram";
-        String str = (String)p.y;
+        String str = (String)p.x;
+        //It showing the compiler error because its check at the compile time so it showed the compiler time
+//        error
     }
 }
 
